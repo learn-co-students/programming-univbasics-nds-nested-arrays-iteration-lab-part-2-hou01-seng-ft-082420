@@ -1,5 +1,18 @@
 def find_min_in_nested_arrays(src)
-  # src will be an array of arrays of integers
-  # Produce a new Array that contains the smallest number of each of the nested arrays
-
+  lows = []
+  day = 0 
+  while day < src.count do
+    hour = 0 
+    low_today = src[day][0]
+    while hour < src[day].count do
+      if src[day][hour]< low_today
+        low_today = src[day][hour]
+      end
+      lows[day] = low_today
+      hour += 1
+    end 
+    
+  day += 1
+  end 
+  lows
 end
