@@ -11,8 +11,8 @@ array_of_daily_temperatures = [
   [30, 36, 38, 39, 40, 45, 47, 49, 50, 59, 60, 60, 65, 63, 61, 56, 49, 43, 40, 39, 35, 32, 23, 22],
 ]
 newArray = [] 
-count = 0 
-while count < array_of_daily_temperatures.count do 
+count = 0
+while count < src.count 
   
 
  end
